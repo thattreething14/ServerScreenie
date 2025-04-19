@@ -28,7 +28,6 @@ class ServerScreenieImpl : JavaPlugin(), CommandExecutor {
     }
 
     override fun onDisable() {
-        // Plugin shutdown logic
     }
 
     override fun onCommand(
@@ -102,7 +101,6 @@ class ServerScreenieImpl : JavaPlugin(), CommandExecutor {
         val file = File(dataFolder, "$fileName.png")
 
         try {
-            // Ensure directory exists
             if (!dataFolder.exists()) {
                 dataFolder.mkdirs()
             }
