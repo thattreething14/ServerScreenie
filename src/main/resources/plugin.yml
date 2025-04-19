@@ -1,0 +1,9 @@
+name: ServerScreenie
+version: '2.1-1.21.1'
+main: tree.serverScreenie.ServerScreenieImpl
+api-version: '1.21'
+commands:
+  screenshot:
+    description: Takes a screenshot of the player's screen
+    usage: /screenshot [resolution] [aspect ratio]
+    permission: serverscreenie.command.screenshot
