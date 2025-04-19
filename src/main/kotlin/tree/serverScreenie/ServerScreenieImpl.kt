@@ -40,7 +40,7 @@ class ServerScreenieImpl : JavaPlugin(), CommandExecutor {
             sender.sendMessage(ChatColor.RED.toString() + "Only a player may use this command!")
             return true
         }
-
+        // Ypu might wanna make it so only Op'd people can access it idk!
         val player = sender
         var fileName: String? = null
         var pixels: Resolution.Pixels? = Resolution.Pixels._1080P
